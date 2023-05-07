@@ -1,0 +1,51 @@
+.galleryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: -20px;
+}
+.portfolioSection {
+    margin-top: 100px;
+}
+.galleryItem {
+    list-style: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 420px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.galleryButton {
+    border: 0;
+    padding: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 0
+}
+
+.galleryIMG {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.itemName {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 10px 0 0 20px ;
+}
+
+.itemDescription {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+margin: 0px 0 0 20px ;
+}
+    

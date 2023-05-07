@@ -1,0 +1,94 @@
+.heroDescription {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: end;
+}
+.textDescription{
+  margin-right: 60px;
+}
+.fullName {
+  font-family: 'Alata', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 110%;
+  color: #007591;
+  margin: 40px 0 40px 0;
+}
+
+.downloadButton {
+  background-color: #007591;
+  color: #ffffff;
+  width: 256px;
+  height: 65px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.downloadButton:hover {
+background-color: #b8b8b8;
+color: black;
+}
+.freeDesignButton {
+  background-color: #FFD600;
+  color: black;
+  width: 256px;
+  height: 65px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myCVandIn {
+  display: flex;
+  margin-bottom: 35px;
+}
+.myPhotoContainer {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.linkedinIMG {
+  margin-left: 20px;
+}
+.myPhotoContainer {
+  display: flex;
+}
+.myPhoto {
+  max-width: 300px;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.portfolioArrow {
+  display: inline;
+  width: 100px;
+  margin-right: 40px;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+  font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+.arrowContainer {
+  display: flex;
+  padding-right: 100px;
+  justify-content: space-around;
+}

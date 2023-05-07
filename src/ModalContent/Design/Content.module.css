@@ -1,0 +1,12 @@
+.contentIMG {
+    width: 100%;
+}
+.capture {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 29px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
