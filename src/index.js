@@ -6,13 +6,14 @@ import Home from "./pages/Home";
 import DesignPage from "./pages/Design";
 import DevelopmentPage from "./pages/Development";
 import NoPage from "./pages/NoPage";
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
   <React.StrictMode>
-    <Home></Home>
+    <App></App>
     {/* <BrowserRouter>
       <Routes> */}
         {/* <Route path="/" element={<Home />}>
