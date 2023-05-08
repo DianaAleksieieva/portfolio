@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfac1832.css",
+    "main.js": "/static/js/main.ff1074f3.js",
+    "static/media/CalendarIMG.jpg": "/static/media/CalendarIMG.a8e55153471c8b8b38bb.jpg",
+    "static/media/TranaIMG.jpeg": "/static/media/TranaIMG.d738acba91dd6c97fa43.jpeg",
+    "static/media/Cosmetiques-content.jpeg": "/static/media/Cosmetiques-content.8e920301cabf5319aca0.jpeg",
+    "static/media/MokaIMG.jpg": "/static/media/MokaIMG.19acd11b336c9e725628.jpg",
+    "static/media/portfolio-calendar.jpeg": "/static/media/portfolio-calendar.81cc8c49097c4127e243.jpeg",
+    "static/media/my-photo.jpeg": "/static/media/my-photo.3a359b7b032daf24f595.jpeg",
+    "static/media/RetouchIMG.jpeg": "/static/media/RetouchIMG.41d916ac8048aa61d091.jpeg",
+    "static/media/AleksaCV.pdf": "/static/media/AleksaCV.c3bb3fb48d9292410a6d.pdf",
+    "static/media/portfolio-moka.jpeg": "/static/media/portfolio-moka.19e6148ef1242ec191be.jpeg",
+    "static/media/portfolio-retouch.jpeg": "/static/media/portfolio-retouch.4a2eedb49f7e8719fc21.jpeg",
+    "static/media/portfolio-trana.jpeg": "/static/media/portfolio-trana.ec5fe3b4cba95ba7c9a5.jpeg",
+    "static/media/Cosmetiques.jpeg": "/static/media/Cosmetiques.31534609530cb2829eec.jpeg",
+    "static/media/LOGO-DI.svg": "/static/media/LOGO-DI.f95a11e979eb2d9ea95160e2ac281271.svg",
+    "static/media/portfolio-arrow.svg": "/static/media/portfolio-arrow.1219e397726692c497728e453e757dbf.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.df5e5ba83f8d9f03f3e212c1b8586cc2.svg",
+    "main.dfac1832.css.map": "/static/css/main.dfac1832.css.map",
+    "main.ff1074f3.js.map": "/static/js/main.ff1074f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfac1832.css",
+    "static/js/main.ff1074f3.js"
+  ]
+}
