@@ -1,0 +1,24 @@
+.skillsContainer {
+    max-width: 1400px;
+    margin-right: -130px;
+}
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.skillsItem {
+    list-style: none;
+    margin-right: 130px;
+    width: 120px;
+}
+
+.skillsIcon {
+    max-height: 120px;
+}
+
+.skillsLable {
+    font-size: 16px;
+}

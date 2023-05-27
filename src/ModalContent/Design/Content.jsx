@@ -5,6 +5,7 @@ import calendarIMG from "../../img/CalendarIMG.jpg"
 import tranaIMG from "../../img/TranaIMG.jpeg"
 import mokaIMG from "../../img/MokaIMG.jpg"
 import retouchIMG from "../../img/RetouchIMG.jpeg"
+import SockHubIMG from '../../img/socks-lables-all.jpg';
 
 function Content({content}) {
     
@@ -24,6 +25,8 @@ function Content({content}) {
               break;
               case 'Moka':
               return mokaIMG
+              case 'SockHub':
+              return SockHubIMG
               break;
             default:
               return

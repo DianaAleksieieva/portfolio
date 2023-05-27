@@ -4,9 +4,10 @@ import CalendarIMG from '../img/portfolio-calendar.jpeg';
 import RetouchIMG from '../img/portfolio-retouch.jpeg';
 import TranaIMG from '../img/portfolio-trana.jpeg';
 import MokaIMG from '../img/portfolio-moka.jpeg';
+import SocksHubIMG from '../img/socks-lsble.jpg';
+import SocksHubAllIMG from '../img/socks-lables-all.jpg';
 import Modal from '../Modal/Modal.jsx';
 import useModal from '../Modal/useModal.jsx';
-import { useState } from 'react';
 
 function Design() {
   const { isShowing, toggle } = useModal();
@@ -111,6 +112,25 @@ function Design() {
             <p className={styles.itemName}>Trana charity organization</p>
             <p className={styles.itemDescription}>
             Web site design 
+            </p>
+          </button>
+        </li>
+
+        <li className={styles.galleryItem}>
+          <button
+            name="SockHub"
+            onClick={handleClick}
+            className={styles.galleryButton}
+            type="button"
+          >
+            <img
+              className={styles.galleryIMG}
+              alt="SockHub"
+              src={SocksHubIMG}
+            ></img>
+            <p className={styles.itemName}>Socks Hub lable</p>
+            <p className={styles.itemDescription}>
+            Lables design for socks company
             </p>
           </button>
         </li>
