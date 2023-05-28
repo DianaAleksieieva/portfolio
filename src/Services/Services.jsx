@@ -7,7 +7,7 @@ import servicesRetouch from '../img/services-02.png';
 function Services() {
   return (
     <section className={styles.servicesContainer} >
-        <h2>Services</h2>
+        <h2 className={styles.sectionHeader}>Services</h2>
         <ul className={styles.servicesList}>
             <li className={styles.servicesItem}>
                 <img src={servicesDesign} className={styles.servicesIcon}></img>
@@ -23,7 +23,7 @@ function Services() {
             </li>
             <li className={styles.servicesItem}>
                 <img src={servicesRetouch} className={styles.servicesIcon}></img>
-                <p className={styles.servicesLable}>Photo Retouch</p>
+                <p className={styles.servicesLable}>Photo  <br></br> Retouch</p>
             </li>
         </ul>
       </section>

@@ -5,7 +5,6 @@ import RetouchIMG from '../img/portfolio-retouch.jpeg';
 import TranaIMG from '../img/portfolio-trana.jpeg';
 import MokaIMG from '../img/portfolio-moka.jpeg';
 import SocksHubIMG from '../img/socks-lsble.jpg';
-import SocksHubAllIMG from '../img/socks-lables-all.jpg';
 import Modal from '../Modal/Modal.jsx';
 import useModal from '../Modal/useModal.jsx';
 
@@ -19,7 +18,7 @@ function Design() {
   };
   return (
     <div className={styles.portfolioSection}>
-      <h2>Portfolio Design</h2>
+      <h2 className={styles.sectionHeader}>Portfolio Design</h2>
       <ul className={styles.galleryList}>
         <li className={styles.galleryItem}>
           <button

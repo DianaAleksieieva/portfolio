@@ -5,7 +5,6 @@
     margin-right: -20px;
 }
 
-
 .portfolioSection {
     margin-top: 100px;
 }
@@ -54,3 +53,39 @@ line-height: 30px;
 margin: 0px 0 10px 0px ;
 }
     
+@media only screen and (max-width: 600px) { 
+.portfolioSection {
+    margin-top: 40px;
+}
+
+.sectionHeader {
+    font-size: 24px;
+}
+
+.galleryList {
+    padding: 0;
+ }
+
+.galleryItem {
+    width: 95%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+
+.galleryIMG {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.itemName {
+    font-size: 16px;
+    margin: 7px 0 0 0px ;
+}
+
+.itemDescription {
+font-size: 14px;
+margin: 0px 0 7px 0px ;
+}
+}
+

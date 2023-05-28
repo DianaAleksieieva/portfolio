@@ -7,14 +7,14 @@ import portfolioArrow from '../img/portfolio-arrow.svg';
 
 function Hero() {
   return (
-    <div>
+    <div className={styles.heroContainer}>
       <div className={styles.heroDescription} >
         <div className={styles.textDescription}>
           <p className={styles.fullName}> Diana Aleksa </p>
           <p>
             Frontend Developer <br></br> Graphic Designer{' '}
           </p>
-          <p>
+          <p className={styles.aboutInfo}>
             I am creating web pages with the modern JS framework - REACT, using
             HTML, CSS, and principles of responsive design. Moreover, I am
             working with API, Redux, and Mongoose. I have skills in graphic
@@ -25,12 +25,11 @@ function Hero() {
           <div className={styles.myCVandIn}>
             <a className={styles.downloadButton} href={myCV} download>Download my CV</a>
             <a
-              className={styles.linkedinIMG}
+              className={styles.linkedinIMGLink}
               href="https://www.linkedin.com/in/diana-aleksieieva-0687921b2/"
             >
               <img
-                className={styles.linkedinIMG}
-                height="65px"
+              className={styles.linkedinIMG}
                 alt="linkedin"
                 src={linkedinIMG}
               ></img>

@@ -23,3 +23,31 @@
 .skillsLable {
     font-size: 16px;
 }
+
+@media only screen and (max-width: 600px) { 
+    .skillsContainer {
+        margin-top: 40px;
+    }
+    
+    .skillsHeader {
+        font-size: 24px;
+    }
+    .skillsList {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .skillsItem {
+        list-style: none;
+        margin-right: 25px;
+        width: 60px;
+    }
+    .skillsIcon {
+        max-height: 60px;
+    }
+    .skillsLable {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}    

@@ -13,47 +13,47 @@ import GitHub from '../img/skills/git-hub.png';
 function Skills() {
   return (
     <section className={styles.skillsContainer} >
-        <h2>Technical Skills</h2>
+        <h2 className={styles.skillsHeader}>Technical Skills</h2>
         <ul className={styles.skillsList}>
             <li className={styles.skillsItem}>
                 <img  className={styles.skillsIcon} src={inDesign}></img>
-                <p>inDesign</p>
+                <p className={styles.skillsLable}>inDesign</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={Illustrator}></img>
-                <p>illustrator</p>
+                <p className={styles.skillsLable}>illustrator</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={Photoshop}></img>
-                <p>Photoshop</p>
+                <p className={styles.skillsLable}>Photoshop</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={Figma}></img>
-                <p>Figma</p>
+                <p className={styles.skillsLable}>Figma</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={Acrobat}></img>
-                <p>Acrobat</p>
+                <p className={styles.skillsLable}>Acrobat</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={CSS}></img>
-                <p>CSS</p>
+                <p className={styles.skillsLable}> CSS</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={HTML}></img>
-                <p>HTML</p>
+                <p className={styles.skillsLable}>HTML</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={JS}></img>
-                <p>JavaScript</p>
+                <p className={styles.skillsLable}>JavaScript</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={React}></img>
-                <p>React</p>
+                <p className={styles.skillsLable}>React</p>
             </li>
             <li className={styles.skillsItem}>
                 <img className={styles.skillsIcon} src={GitHub}></img>
-                <p>GitHub</p>
+                <p className={styles.skillsLable}>GitHub</p>
             </li>
         </ul>
       </section>
