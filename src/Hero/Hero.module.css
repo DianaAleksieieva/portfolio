@@ -2,8 +2,8 @@
 .heroDescription {
   display: flex;
   text-align: left;
-  justify-content: space-between;
-  align-items: end;
+  justify-content: space-around;
+  align-items: top;
 }
 .textDescription{
   margin-right: 60px;
@@ -15,7 +15,20 @@
   font-size: 72px;
   line-height: 110%;
   color: #007591;
-  margin: 40px 0 40px 0;
+  margin: 30px 0 5px 0;
+}
+
+.aboutInfo{
+  font-size: 14px;
+  line-height: 140%;
+  max-width: 600px;
+}
+
+.myRole {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 120%;
 }
 
 .downloadButton {
@@ -55,25 +68,17 @@ color: black;
   display: flex;
   margin-bottom: 35px;
 }
-.myPhotoContainer {
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
+
 .linkedinIMG {
   height: 65px;
   padding-left: 20px;
 }
 
-.myPhotoContainer {
-  display: flex;
-}
 .myPhoto {
   max-width: 300px;
-  max-height: 350px;
+  max-height: 250px;
   object-fit: contain;
+  margin-top: 30px;
 }
 
 .portfolioArrow {
@@ -92,7 +97,6 @@ font-size: 24px;
 }
 .arrowContainer {
   display: flex;
-  padding-right: 100px;
   justify-content: space-around;
 }
 
@@ -101,15 +105,19 @@ font-size: 24px;
     text-align: left;
     flex-wrap: wrap;
   }
-  .myPhotoContainer {
+  .myPhoto {
     display: none;
   }
   .aboutInfo{
     font-size: 14px;
   }
+
   .fullName {
     font-size: 32px;
     margin: 20px 0 20px 0;
+  }
+  .myRole {
+    font-size: 22px;
   }
   .downloadButton {
     width: 170px;
